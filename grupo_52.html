@@ -8,142 +8,104 @@
 </head>
 
 <body>
-    <h1>Fundamentos de Computación</h1>
-    <h2>Facultad de Ciencia y Tecnología, Universidad Autónoma de Entre Ríos</h2>
-    <h3>Trabajo Práctico N° 1</h3>
-    <h4>Tema: "Streaming de videojuegos"</h4>
+    <header>
+        <h1>Trabajo Práctico: "Streaming de videojuegos"</h1>
+        <section>
+            <img
+                src="data:image/png;base64,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">
+            <p><strong>Universidad:</strong> Universidad Autonoma De Entre Rios</p>
+            <p><strong>Facultad:</strong> Facultad de Ciencia y Tecnologia</p>
+            <p><strong>Carrera:</strong> Licenciatura en Sitemas de Informacion</p>
+            <p><strong>Cátedra:</strong> Fundamentos de Computacion</p>
+            <p><strong>Trabajo Práctico:</strong> Streaming de Videojuegos</p>
+            <p><strong>Profesores:</strong> Bioing. Ismael Cassi, Lic. Paolo Orundes Cardinali </p>
+            <p><strong>Integrantes del Grupo:</strong> Basso Santino, Ramirez Ariel, Siebenlist Nikolas, Lopez Misael
+                Franco, Riquelme Fausto Alvaro</p>
+            <p><strong>Comisión:</strong> Viernes 17:05 hs</p>
+            <p><strong>Fecha de Entrega:</strong> Primer Commit del 22 al 27 de septiembre </p>
+            <p><strong>Año Lectivo:</strong> 2025 </p>
+        </section>
+    </header>
+
 
     <hr>
-
-    <h3>Grupo N° 52</h3>
-    <h4>Integrantes del grupo:</h4>
-    <ul>
-        <li>Basso Santino</li>
-        <li>Ramirez Ariel</li>
-        <li>Siebenlist Nikolas</li>
-        <li>Lopez Misael Franco</li>
-        <li>Riquelme Fausto Alvaro</li>
-    </ul>
-
+    <section>
+        <h2>1. Videojuego seleccionado por el grupo:</h2>
+        <p><strong>League of Legends (LoL)</strong></p>
+        <p><strong>League of Legends:</strong> Es un videojuego gratuito del género MOBA (Multiplayer Online Battle
+            Arena)
+            desarrollado y publicado por Riot Games en el año 2009. En él, dos equipos de cinco jugadores se enfrentan
+            para
+            destruir la base enemiga (Nexo). Se ha convertido en uno de los títulos más populares y de mayor impacto a
+            nivel
+            mundial, especialmente en el ámbito de los eSports.</p>
+    </section>
     <hr>
-
-    <h3>Videojuego seleccionado por el grupo:</h3>
-    <h4>League of Legends (LoL)</h4>
-    <p><strong>League of Legends:</strong> Es un videojuego gratuito del género MOBA (Multiplayer Online Battle Arena)
-        desarrollado y publicado por Riot Games en el año 2009. En él, dos equipos de cinco jugadores se enfrentan para
-        destruir la base enemiga (Nexo). Se ha convertido en uno de los títulos más populares y de mayor impacto a nivel
-        mundial, especialmente en el ámbito de los eSports.</p>
-
+    <section>
+        <h2>2. Requisitos del videojuego:</h2>
+        <p>La última actualización de requisitos mínimos y recomendados del sistema que Riot Games lanzó el día 15 de
+            Julio
+            de 2021 para jugar League of Legends son los siguientes:
+        </p>
+        <article>
+            <h3>Requerimientos minimos:</h3>
+            <ul>
+                <li><strong>CPU:</strong> Intel: Core i3-530 / AMD: A6-3650</li>
+                <li><strong>Características del procesador:</strong> SSE2</li>
+                <li><strong>Tarjeta gráfica:</strong> Nvidia: GeForce 9600GT / AMD: HD 6570 / Intel: Intel HD 4600
+                    Integrated Graphics</li>
+                <li><strong>Características de la tarjeta gráfica:</strong> Nivel del hardware: DX10</li>
+                <li><strong>Memoria gráfica:</strong> 1GB</li>
+                <li><strong>Espacio de almacenamiento disponible:</strong> 16 GB de disco duro</li>
+                <li><strong>Versión del SO:</strong> Win 7, 8, 10</li>
+                <li><strong>Arquitectura del SO:</strong> X86 32-bit. x64</li>
+                <li><strong>Memoria RAM:</strong> 2GB</li>
+                <li><strong>Ajustes recomendados de los efectos visuales:</strong> Bajos</li>
+                <li><strong>Resolución recomendada:</strong> 1024x768</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Requerimientos recomendados:</h3>
+            <ul>
+                <li><strong>CPU:</strong>Intel: Core i5-3300 / AMD: Ryzen 3 1200</li>
+                <li><strong>Características del procesador:</strong> SSE4</li>
+                <li><strong>Tarjeta gráfica:</strong> Nvidia: GeForce 560 / AMD: Radeon HD 6950 / Intel: Intel UHD 639
+                    Integrated Graphics</li>
+                <li><strong>Características de la tarjeta gráfica:</strong> Nivel del hardware: DX11</li>
+                <li><strong>Memoria gráfica:</strong> 2GB</li>
+                <li><strong>Espacio de almacenamiento disponible:</strong> 16 GB de disco SSD</li>
+                <li><strong>Versión del SO:</strong> Win 10</li>
+                <li><strong>Arquitectura del SO:</strong> x64</li>
+                <li><strong>Memoria RAM:</strong> 4GB</li>
+                <li><strong>Ajustes recomendados de los efectos visuales:</strong> Altos</li>
+                <li><strong>Resolución recomendada:</strong> 1920x1080</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Fuentes</h3>
+            <p>Fuente de la información: Soporte de Riot Games</p>
+        </article>
+    </section>
     <hr>
+    <section>
+        <h2>3. Imágenes del juego</h2>
+        <p>Capturas representativas del juego elegidas por el grupo.</p>
+        <div>
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0bibDWCYUW4NVBpb3gBFsoVON8DV1ffShw&s"
+                    alt="Captura del juego - 1" />
+                <figcaption>Pantalla de seleccion de personaje jugable al iniciar una partida </figcaption>
+            </figure>
+            <figure>
+                <img src="https://as.com/esports/imagenes/2017/09/26/league_of_legends/1506414262_052830_1506414835_sumario_normal.jpg"
+                    alt="Captura del juego - 2" />
+                <figcaption>Captura de un momento de una partida de una liga profesional </figcaption>
+            </figure>
+        </div>
 
-    <h3>Requisitos del videojuego:</h3>
-    <p>La última actualización de requisitos mínimos y recomendados del sistema que Riot Games lanzó el día 15 de Julio
-        de 2021 para jugar League of Legends son los siguientes:</p>
+    </section>
 
-    <table border="1">
-        <thead>
-            <tr>
-                <th></th>
-                <th>Mínimo</th>
-                <th>Recomendado</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>CPU</strong></td>
-                <td>Intel: Core i3-530<br>AMD: A6-3650</td>
-                <td>Intel: Core i5-3300<br>AMD: Ryzen 3 1200</td>
-            </tr>
-            <tr>
-                <td><strong>Características del procesador</strong></td>
-                <td>SSE2</td>
-                <td>SSE4</td>
-            </tr>
-            <tr>
-                <td><strong>Tarjeta gráfica</strong></td>
-                <td>Nvidia: GeForce 9600GT<br>AMD: HD 6570<br>Intel: Intel HD 4600 Integrated Graphics</td>
-                <td>Nvidia: GeForce 560<br>AMD: Radeon HD 6950<br>Intel: Intel UHD 639 Integrated Graphics</td>
-            </tr>
-            <tr>
-                <td><strong>Características de la tarjeta gráfica</strong></td>
-                <td>Nivel del hardware: DX10</td>
-                <td>Nivel del hardware: DX11</td>
-            </tr>
-            <tr>
-                <td><strong>Memoria gráfica</strong></td>
-                <td>1GB</td>
-                <td>2GB</td>
-            </tr>
-            <tr>
-                <td><strong>Espacio de almacenamiento disponible</strong></td>
-                <td>16 GB de disco duro</td>
-                <td>16 GB de disco SSD</td>
-            </tr>
-            <tr>
-                <td><strong>Versión del SO</strong></td>
-                <td>Win 7, 8, 10</td>
-                <td>Win 10</td>
-            </tr>
-            <tr>
-                <td><strong>Arquitectura del SO</strong></td>
-                <td>X86 32-bit. x64</td>
-                <td>x64</td>
-            </tr>
-            <tr>
-                <td><strong>Memoria RAM</strong></td>
-                <td>2GB</td>
-                <td>4GB</td>
-            </tr>
-            <tr>
-                <td><strong>Ajustes recomendados de los efectos visuales</strong></td>
-                <td>Bajos</td>
-                <td>Altos</td>
-            </tr>
-            <tr>
-                <td><strong>Resolución recomendada</strong></td>
-                <td>1024x768</td>
-                <td>1920x1080</td>
-            </tr>
-        </tbody>
-    </table>
 
-    <hr>
-
-    <h3>Armado de la PC (Basso Santino)</h3>
-    <p>Teniendo en cuenta que el presupuesto es de 1000 dólares (Alrededor de 1.400.000 de pesos). He decidido adquirir
-        la mayoría de los componentes en <strong>Paraná Hardware</strong>, una de las empresas que forman parte del Polo
-        Tecnológico del Paraná. De esta manera, puedo garantizar la calidad y el soporte local. Las únicas excepciones
-        serían el UPS y la webcam, que se comprarían en otras tiendas para conseguir las mejores opciones en el mercado.
-    </p>
-
-    <ul>
-        <li><strong>Placa madre:</strong> Asus PrimeB550M-K ($159,570)</li>
-        <li><strong>Microprocesador:</strong> AMD Ryzen 5600GT ($280,070)</li>
-        <li><strong>Memoria ram:</strong> Hiksemi Armor 8GB DDR4 (x2) ($43.830)</li>
-        <li><strong>Almacenamiento:</strong> Hiksemi Wave 512GB NVMe ($61.810)</li>
-        <li><strong>Fuente de poder:</strong> Adata XPG Probe 600W 80+ Bronce ($94.710)</li>
-        <li><strong>Gabinete:</strong> Sentey H10 ($88,320)</li>
-        <li><strong>Monitor:</strong> Hikvision DS-D5027F2 ($223.150)</li>
-        <li><strong>Teclado, mouse, auriculares y micrófono:</strong> Combo Sentey GS-5850 ($44.960)</li>
-        <li><strong>Estabilizador o UPS:</strong> Hikvision DS-UPS1000 ($125.035) en ControlTecParana</li>
-        <li><strong>Cámara:</strong> LOGITECH HD 960-001367-(C505)-96152 ($43.889) en Previsora del Parana</li>
-    </ul>
-
-    <p>El monto final del armado de la computadora es de $1.209.174 pesos argentinos a los que se deben sumar los gastos
-        de envío que, al ser todas tiendas de Paraná, no es mayor a $4000.</p>
-    <h4>Interacciones con IA:</h4>
-    <h5>Sobre posibles actualizaciones:</h5>
-    <p><strong>Usuario:</strong> Teniendo en cuenta los siguientes componentes: ..... Que actualizaciones recomiendas
-        realizar a futuro?</p>
-    <p>
-        <strong>Gemini:</strong> Recomendaciones de actualización para tu PC</br>
-        Tarjeta gráfica (GPU): Es la actualización más importante. Añadir una GPU dedicada (Nvidia o AMD) te dará un
-        gran salto de rendimiento en juegos, ya que el Ryzen 5600GT usa gráficos integrados.</br>
-        Almacenamiento: Añade un disco SSD SATA de 1 TB o 2 TB. El espacio de 512 GB en tu disco Hiksemi Wave NVMe es
-        limitado y se llenará rápido.</br>
-        Memoria RAM: A futuro, considera subir de 16 GB a 32 GB si el uso de programas de edición, streaming y
-        videojuegos al mismo tiempo lo requiere.
-    </p>
 
 
 </body>
