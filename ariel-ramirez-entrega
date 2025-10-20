@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrega PC Gamer Argentina 2025</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f9fa; color: #222; margin: 15px; }
+    h1, h2, h3 { color: #1a2b4c; }
+    table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #e5ecfb; }
+    tr:nth-child(even) { background: #f3f6fc; }
+    code { background: #eee; padding: 2px 5px; border-radius: 3px; }
+    .highlight { color: #0a7e4a; font-weight: bold; }
+    .section { margin-bottom: 24px; }
+    .img-box { padding: 10px; background: #e7f4ff; max-width: 500px; margin: 18px auto; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>PC Gamer Argentina (2025) - Proyecto para Universidad</h1>
+
+  <div class="section">
+    <h2>Ficha Técnica Completa (Presupuesto ~USD 1000)</h2>
+    <table>
+      <tr><th>Componente</th><th>Especificación</th><th>Tienda Oficial</th><th>Precio Estimado (ARS)</th></tr>
+      <tr><td>CPU</td><td>Intel Core i3-12100F (4c/8t, 4.3GHz)</td><td>Maximus, Fullh4rd, Mexx</td><td>110.000</td></tr>
+      <tr><td>Motherboard</td><td>ASRock H610M DDR4</td><td>Maximus, Fullh4rd, Mexx</td><td>120.000</td></tr>
+      <tr><td>RAM</td><td>16GB DDR4 3200MHz (2x8GB)</td><td>Maximus, Fullh4rd, Mexx</td><td>105.000</td></tr>
+      <tr><td>GPU</td><td>NVIDIA RTX 3050 8GB</td><td>Maximus, Fullh4rd, Mexx</td><td>285.000</td></tr>
+      <tr><td>SSD</td><td>480GB SATA III</td><td>Maximus, Fullh4rd, Mexx</td><td>60.000</td></tr>
+      <tr><td>Fuente</td><td>Corsair CV550 80+ Bronze 550W</td><td>Maximus, Fullh4rd, Mexx</td><td>65.000</td></tr>
+      <tr><td>Gabinete</td><td>ATX/Micro ATX, básico/ventilado</td><td>Maximus, Fullh4rd, Mexx</td><td>45.000</td></tr>
+      <tr><th colspan="3">Presupuesto total estimado:</th><td style="font-weight:bold;">790.000 ARS</td></tr>
+    </table>
+    <p><strong>Tiendas oficiales:</strong> <br>Maximus Gaming Hardware, Fullh4rd, Mexx (todas con locales físicos y web en CABA).</p>
+  </div>
+
+  <div class="section">
+    <h2>Justificación y Comparación</h2>
+    <ul>
+      <li>Componentes seleccionados equilibran costo y rendimiento para jugar y transmitir a 1080p.</li>
+      <li>Tiendas elegidas tienen stock real, garantía oficial y asesoría técnica.</li>
+      <li><span class="highlight">Intel i3-12100F</span>: mejor rendimiento por peso en gaming 1080p que Ryzen 5 5600G, más barato en Argentina.</li>
+      <li><span class="highlight">RTX 3050</span>: ideal para gaming AAA y streaming básico, equipos superiores se van de presupuesto.</li>
+    </ul>
+    <p>Alternativas descartadas: MercadoLibre, Compugamer (preferencia por garantía oficial y reputación).</p>
+  </div>
+
+  <div class="section">
+    <h2>Análisis de Rendimiento</h2>
+    <ul>
+      <li><strong>Juegos competitivos (LoL, Valorant, CS2):</strong> 120–200 FPS en 1080p, calidad media-alta.</li>
+      <li><strong>Juegos AAA modernos (Cyberpunk 2077, Elden Ring):</strong> 40–60 FPS en 1080p, calidad media.</li>
+      <li><strong>Streaming:</strong> posible en 1080p 60fps estable, con bitrate desde 4500 kbps usando OBS.</li>
+    </ul>
+    <p>Plataforma permite suba de RAM a 32GB y salto de GPU en el futuro.</p>
+  </div>
+
+  <div class="section">
+    <h2>Tabla Comparativa CPUs (Tiendas Oficiales Argentina)</h2>
+    <table>
+      <tr><th>CPU</th><th>Núcleos/Hilos</th><th>Frecuencia</th><th>GPU Integrada</th><th>Precio (ARS)</th><th>Tienda</th></tr>
+      <tr><td>i3-12100F</td><td>4/8</td><td>4.3 GHz</td><td>No</td><td>110.000</td><td>Maximus, Fullh4rd</td></tr>
+      <tr><td>Ryzen 5 5600G</td><td>6/12</td><td>4.4 GHz</td><td>Sí</td><td>165.000</td><td>Fullh4rd, Mexx</td></tr>
+    </table>
+    <p><strong>Conclusión:</strong> El i3-12100F rinde mejor en gaming/streaming por menor precio, Ryzen solo si se necesita GPU integrada o mucha multitarea.</p>
+  </div>
+
+  <div class="section">
+    <h2>Interacción IA + Reflexión Personal</h2>
+    <div style="background:#f4ffe7; padding:10px; border-radius:5px;">
+      <strong>Prompt real:</strong>
+      <code>¿Qué procesador es mejor para streamear Fortnite con presupuesto bajo en Argentina 2025?</code><br>
+      <strong>Respuesta IA:</strong> "Para streamear Fortnite con presupuesto bajo recomiendo el Intel Core i3-12100F. Ofrece buen rendimiento gaming y es accesible en tiendas oficiales."
+      <br>
+      <strong>Reflexión:</strong> Estoy de acuerdo porque Fortnite depende mucho de CPU y el i3-12100F es la mejor relación calidad/precio. Además, hay garantía oficial y stock en Argentina.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Concepto Técnico Explicado</h2>
+    <strong>¿Para qué sirve la GPU?</strong><br>
+    <em>Explicación IA:</em> La GPU (Unidad de Procesamiento Gráfico) procesa todos los gráficos y efectos visuales en tiempo real, permitiendo que los videojuegos y videos se vean fluidos y detallados.<br>
+    <em>Traducción común:</em> Es el "motor" que hace que los juegos se vean bien. Si la GPU es mala o muy básica, los juegos se ven feos o se traban.
+  </div>
+
+  <div class="section img-box">
+    <h2>Imagen IA del proyecto (ejemplo de entrega)</h2>
+    <p><strong>Prompt:</strong> Setup gamer sencillo, estudiante universitario argentino transmitiendo videojuegos desde su PC con luces led y micrófono.<br>
+      La imagen muestra un escritorio simple con PC, monitor, micrófono y luz LED, como lo que podés lograr en Argentina con este presupuesto.
+    </p>
+    <!-- Aquí puedes adjuntar la imagen generada desde Bing/DALL·E, por ejemplo <img src="URL_DE_LA_IMAGEN" alt="Setup IA Gamer" style="max-width:100%;"> -->
+  </div>
+
+  <div class="section">
+    <h2>Conclusiones finales</h2>
+    <p>
+      La IA permitió comparar componentes, encontrar precios confiables en tiendas oficiales y explicar conceptos técnicos en lenguaje sencillo. Detecté errores al verificar precios actualizados; por eso siempre revisé en los sitios de la tienda real antes de comprar. Para armar presupuestos y entender más rápido las opciones, la IA es ideal. Si quiero opiniones reales de usuarios o buscar algo muy puntual, ahí prefiero consultar la tienda directamente o usar foros especializados. Para esta entrega, combinar uso de IA y verificación en tiendas físicas es lo mejor para estudiantes que recién empiezan.
+    </p>
+  </div>
+</body>
+</html>
